@@ -1,0 +1,27 @@
+/* .cd-main{
+    box-sizing: border-box;
+    width: 18rem;
+ 
+} */
+
+.cd-img{
+height: 8rem;
+margin:auto;
+margin-top: 5px;
+
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 5rem;
+}
+
+.cd-body{
+    text-align: initial;
+}
+
+.cd-title{
+    font-size: 5rem;
+}
+
+.cd-desc{
+    /* text-align: justify; */
+}

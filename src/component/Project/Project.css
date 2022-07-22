@@ -1,0 +1,12 @@
+.p-cards {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.p-head{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}

@@ -1,0 +1,24 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.c-head{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+/* .c-left{
+    flex: 2; 
+    background-color: green;
+}
+.c-right{
+    flex: 1; 
+    background-color: blue;
+} */
+.c-social-icons{
+    /* margin: 1rem; */
+    text-align: center;
+}
+

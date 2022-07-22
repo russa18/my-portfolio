@@ -1,0 +1,15 @@
+.inp-box{
+    border:none;
+}
+
+.inp-box{
+    /* width: 70%; */
+   border-bottom :1px solid black;
+}
+
+.c-form{
+    /* padding: 10rem; */
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+}
