@@ -1,15 +1,18 @@
-.inp-box{
-    border:none;
-}
-
-.inp-box{
-    /* width: 70%; */
-   border-bottom :1px solid black;
-}
 
 .c-form{
-    /* padding: 10rem; */
-    width: 50%;
     margin: auto;
-    margin-top: 4rem;
+display: flex;
+flex-direction: column;
+width: 60%;
+
+}
+
+.inp-box, .inp-txt{
+    /* margin: auto !important;
+    width: 70% !important; */
+   border-bottom :2px solid grey !important;
+}
+.inp-txt{
+    min-height: 150px !important;
+
 }

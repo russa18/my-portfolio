@@ -1,7 +1,4 @@
-/* *{
-    
-    overflow: hidden;
-} */
+
 .home {
     display: flex;
     width: 100%;
@@ -20,12 +17,28 @@
 
 .left-name {
     font-size: 4rem;
+    font-weight: 100;
+    font-family:  cursive;
+}
+.left-title{
+    padding: 1rem 0;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .left-info {
-    padding: 8rem;
+    padding: 4rem;
+    padding-bottom: 0px;
 }
+.h{
+    text-align: initial;
+}
+.home-desc{
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
 
+
+}
 .fa-brands {
     margin: 1rem;
     height: 4rem;
@@ -44,18 +57,44 @@
 .prof-bg {
     position: relative;
     clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    /* clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
+
     background-color: rgb(16 255 129);
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .profile-img {
     position: absolute;
-    display: flex;
+    
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
-    /* width: 100%;
-height: 100%; */
-    /* object-fit: cover ; */
+    /* width: 10rem;
+height: 10rem;
+    object-fit: cover ; */
+}
+
+@media screen and (max-width: 760px) {
+    .home {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+    .right {
+       
+        display: none;
+
+    }
+    .fa-brands {
+        margin: 1rem;
+        height: 2rem;
+        width: 2rem;
+        cursor: pointer;
+    }
+    .left-icons{
+        margin-bottom: 1rem;
+    }
+
 }

@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div className="home">
       <div className="left">
-        <div className="left-info">
-          <h2 className='left-heading'>Hello, I am</h2>
+        <div className="h left-info">
+          <h2 className='left-heading'>Hello , I am</h2>
           <h1 className='left-name'>Rushikesh Sawant</h1>
-          <h3 className='left-title'>Web Developer</h3>
-          <p>
-            highly motivated indivisual looking for a fronted job in react js ,willing to work hard and horn my skills and provide a value to the company
+          <h3 className=' left-title'>Web Developer</h3>
+          <p className='home-desc'>
+            Highly motivated individual looking for a fronted job in react js ,willing to work hard and hone my skills while providing something of a value to the company
           </p>
           
         <div className="left-icons">

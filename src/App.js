@@ -6,23 +6,24 @@ import Navbars from './component/Navbar/Navbars';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
-  BrowserRouter as Router, 
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 
 function App() {
+
   return (
     <div className="App">
-    <Router>
-      <Navbars/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Project" element={<Project/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
+      <Router>
+        <Navbars />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Project" element={<Project />} />
+          <Route path="/Contact" element={<Contact />} />
 
-      </Routes>
-    </Router>
+        </Routes>
+      </Router>
 
     </div>
   );

@@ -1,4 +1,25 @@
 .navbar-dark .navbar-brand {
-    position: absolute;
+    position: absolute ;
     margin-left: 5rem;
 }
+
+.n-brand{
+    font-size: 1.5rem !important;
+    letter-spacing: 5px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.n-link{
+    font-size: 1rem !important;
+    margin: 0 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+@media screen and (max-width: 990px) {
+    .n-link {
+        padding-left: 250px !important;
+    }
+    .n-btn{
+        padding-left: 240px !important;
+    }
+}
+

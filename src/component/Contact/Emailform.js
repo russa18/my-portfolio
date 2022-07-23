@@ -4,7 +4,7 @@ import "./Emailform.css";
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-function Emailform() {
+function Emailform(props) {
 
   const formRef= useRef();
   const [done, setDone] = useState(false)
@@ -16,6 +16,7 @@ function Emailform() {
       .then((result) => {
           console.log(result.text);
           setDone(true);
+          props.showAlert("Email sent successfully", "success");
           e.target.reset();
 
       }, (error) => {
@@ -25,25 +26,28 @@ function Emailform() {
   return (
     <Form className="c-form" ref={formRef} onSubmit={sendEmail}>
       <Form.Group className="mb-3 " controlId="formBasicName">
-        <Form.Control type="text" className='inp-box' placeholder="Name" name="user_name" />
+        <Form.Control required type="text" className='inp-box' placeholder="Name" name="user_name" />
        
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicSubject">
-        <Form.Control type="text" placeholder="Subject" name="user_subject" />
+        <Form.Control required type="text" className='inp-box' placeholder="Subject" name="user_subject" />
        
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="email" placeholder="Email"  name="user_email"/>
+        <Form.Control required type="email" className='inp-box' placeholder="Email"  name="user_email"/>
        
       </Form.Group>
       <Form.Group>
-        <Form.Control as="textarea" aria-label="With textarea" placeholder='Message' name="user_message" />
+        <Form.Control required as="textarea" className='inp-txt'  aria-label="With textarea" placeholder='Message' name="user_message" />
       </Form.Group>
 
+      <Form.Group className='inp-btn'>
       <Button className="my-3" variant="primary" type="submit">
         Submit
       </Button>
-      {done && alert("email sent")}
+      </Form.Group>
+      {/* {done && alert("email sent")} */}
+      {done}
     </Form>
   );
 }

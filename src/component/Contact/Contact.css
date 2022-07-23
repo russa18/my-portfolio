@@ -1,24 +1,67 @@
-.contact{
-    display:flex;
-    flex-direction: column;
+.contact {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100vh;
+    background-image: linear-gradient(to right, white, rgb(16 255 129));
+
 }
-.c-head{
+
+.c-img {
+    display: flex;
+    justify-content: center;
     margin-top: 1rem;
+}
+
+.contactImg {
+    width: 50%;
+    height: 50%;
+}
+
+.c-head {
+    /* margin-top: 1rem; */
+    padding-top: 2rem;
     text-align: center;
     font-size: 3rem;
+    font-family: "Mulish", sans-serif;
+
 }
-/* .c-left{
-    flex: 2; 
-    background-color: green;
+
+.c-left {
+    flex: 1;
+    /* background-color: rgb(16 255 129); */
 }
-.c-right{
-    flex: 1; 
-    background-color: blue;
-} */
-.c-social-icons{
+
+.c-right {
+    flex: 1;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.c-social-icons {
     /* margin: 1rem; */
     text-align: center;
 }
 
+
+.alert-box {
+    height: 4rem;
+}
+
+@media screen and (max-width: 760px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-image: none;
+        background-color: white;
+        background-image: linear-gradient(to right, white, rgb(16 255 129));
+ /* background-size: cover; */
+
+    }
+    .c-phone{
+        margin-top: 2rem !important;
+    }
+
+}

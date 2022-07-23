@@ -6,7 +6,7 @@ import codingImg from "./coding.png" ;
 function Projectcard(props) {
   let {title,description,gitLink}=props;
   return (
-    <Card >
+    <Card className='cd-body'>
       <img className='cd-img' variant="top" src={codingImg} alt='' />
       <hr/>
       <Card.Body >

@@ -20,6 +20,13 @@ const articles=[
             "title": "Text Analyzer",
             "description": "Online text analyzer to manupulate text including word count, character count and read time",
             "gitLink": "https://github.com/russa18/text-analyzer"
+        },
+        {
+            "id":4,
+            "imgLink": "",
+            "title": "React Portfolio",
+            "description": "My Protfolio made using React",
+            "gitLink": "https://github.com/russa18/my-portfolio"
         }
     ]
 export default articles;

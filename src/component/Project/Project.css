@@ -1,12 +1,27 @@
-.p-cards {
+.p-box {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem;
+    justify-content: initial;
+    margin: 10px 78px;
 }
 .p-head{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    padding-top: 1rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Mulish",sans-serif;
+}
+.p-cards{
+    width: 18rem;
+}
+.projects{
+    background-image: linear-gradient(to right, white , rgb(16 255 129));
+
+}
+
+@media screen and (max-width: 760px) {
+    .p-cards{
+/* width: 400px !important; */
+    }
 }

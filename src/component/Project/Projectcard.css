@@ -14,14 +14,18 @@ margin-top: 5px;
     width: 5rem;
 }
 
-.cd-body{
+/* .cd-body{
     text-align: initial;
-}
+} */
 
 .cd-title{
-    font-size: 5rem;
+    font-size: 1.5rem !important;
 }
 
 .cd-desc{
     /* text-align: justify; */
+    /* height: 5rem; */
+    font-size: 1rem !important;
+    font-family: "Mulish",sans-serif;
+
 }
