@@ -57,10 +57,11 @@
         background-image: none;
         background-color: white;
         background-image: linear-gradient(to right, white, rgb(16 255 129));
- /* background-size: cover; */
+        /* background-size: cover; */
 
     }
-    .c-phone{
+
+    .c-phone {
         margin-top: 2rem !important;
     }
 

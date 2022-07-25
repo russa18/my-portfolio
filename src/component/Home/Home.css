@@ -1,4 +1,3 @@
-
 .home {
     display: flex;
     width: 100%;
@@ -18,33 +17,53 @@
 .left-name {
     font-size: 4rem;
     font-weight: 100;
-    font-family:  cursive;
+    font-family: cursive;
 }
-.left-title{
+
+.left-title {
     padding: 1rem 0;
     font-family: 'Lato', sans-serif;
-
 }
 
 .left-info {
     padding: 4rem;
     padding-bottom: 0px;
 }
-.h{
+
+.h {
     text-align: initial;
 }
-.home-desc{
-    font-size: 1.5rem;
+
+.home-desc {
+    font-size: 1.3rem;
     font-family: 'Nunito Sans', sans-serif;
-
-
 }
+
 .fa-brands {
     margin: 1rem;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     cursor: pointer;
 }
+
+.fa-brands:hover {
+    transform: scale(1.3);
+
+}
+
+.fa-instagram:hover {
+    /* color:#f867c5; */
+    color: #bc2a8d;
+}
+
+.fa-linkedin:hover {
+    color: #0ebcff;
+}
+
+.fa-github:hover {
+    color: grey;
+}
+
 
 .right {
     flex: 1;
@@ -66,35 +85,36 @@
 
 .profile-img {
     position: absolute;
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-    /* width: 10rem;
-height: 10rem;
-    object-fit: cover ; */
 }
 
 @media screen and (max-width: 760px) {
     .home {
         display: flex;
         width: 100%;
-        height: fit-content;
     }
+
     .right {
-       
+
         display: none;
 
     }
+
     .fa-brands {
         margin: 1rem;
         height: 2rem;
         width: 2rem;
         cursor: pointer;
     }
-    .left-icons{
+
+    .left-icons {
         margin-bottom: 1rem;
     }
 
+    .home-desc {
+        font-size: 1rem;
+    }
+
+    .left-name {
+        font-size: 3rem;
+    }
 }

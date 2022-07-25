@@ -1,18 +1,21 @@
-
-.c-form{
+.c-form {
     margin: auto;
-display: flex;
-flex-direction: column;
-width: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 
 }
 
-.inp-box, .inp-txt{
+.inp-box,
+.inp-txt {
     /* margin: auto !important;
     width: 70% !important; */
-   border-bottom :2px solid grey !important;
+    border-bottom: 2px solid grey !important;
+    color: grey !important;
+    font-family: 'Courier New', Courier, monospace;
 }
-.inp-txt{
+
+.inp-txt {
     min-height: 150px !important;
 
 }

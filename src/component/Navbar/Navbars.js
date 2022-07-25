@@ -12,12 +12,12 @@ function Navbars() {
       <Navbar.Brand className="n-brand" as={Link} to="/">RUSHiKESH</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto ">
-          <Nav.Link className="n-link" as={Link} to="/">Home</Nav.Link>
-          <Nav.Link className="n-link" as={Link} to="/Project">Project</Nav.Link>
-          <Nav.Link className="n-link" as={Link} to="/Contact">Contact</Nav.Link>
-        
-          <a href={Resume} className="n-btn" target='_blank' rel="noreferrer" style={{marginLeft:"10px"}}>
+        <Nav className="mx-auto " defaultActiveKey="/">
+          <Nav.Link className="n-link" as={Link} to="/" eventKey="/">Home</Nav.Link>
+          <Nav.Link className="n-link" as={Link} to="/Project" eventKey="/Project">Project</Nav.Link>
+          <Nav.Link className="n-link" as={Link} to="/Contact" eventKey="/Contact">Contact</Nav.Link>
+
+          <a href={Resume} className="n-btn" target='_blank' rel="noreferrer" style={{ marginLeft: "10px" }}>
             <Button variant="success">Resume</Button>{' '}
           </a>
         </Nav>

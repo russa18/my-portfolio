@@ -1,25 +1,41 @@
 .navbar-dark .navbar-brand {
-    position: absolute ;
+    position: absolute;
     margin-left: 5rem;
 }
 
-.n-brand{
+.n-brand {
     font-size: 1.5rem !important;
     letter-spacing: 5px;
     font-family: 'Kanit', sans-serif;
 
 }
-.n-link{
+
+.n-link {
     font-size: 1rem !important;
     margin: 0 10px;
     font-family: 'Nunito Sans', sans-serif;
+    /* color: white !important; */
+
 }
+
+/* .n-link:hover{
+    transform: scale(1.07);
+} */
+.active {
+    font-weight: 80 !important;
+    /* background-color: #61fb69 !important; */
+    text-decoration: underline 2px #61fb69 !important;
+    color: white !important;
+
+}
+
+
 @media screen and (max-width: 990px) {
     .n-link {
         padding-left: 250px !important;
     }
-    .n-btn{
+
+    .n-btn {
         padding-left: 240px !important;
     }
 }
-
