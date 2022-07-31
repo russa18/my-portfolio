@@ -34,7 +34,7 @@ export default function Contact(props) {
       </div>
       <div className="container c-right">
 
-        <h1 className=" c-head">CONTACT</h1>
+        <h1 className="c-head">CONTACT</h1>
 
         <div className="alert-box">
           <Alerts alert={alert} />

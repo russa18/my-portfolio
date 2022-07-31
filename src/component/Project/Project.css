@@ -7,11 +7,10 @@
 }
 
 .p-head {
-    /* margin-top: 1rem; */
     padding-top: 1rem;
     text-align: center;
-    font-size: 2rem;
-    font-family: "Mulish", sans-serif;
+    font-size: 3rem !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .p-cards {
@@ -19,14 +18,17 @@
 }
 
 .projects {
+    /* color: #1A374D; */
+    padding-bottom: 4rem;
+    background-image: linear-gradient(to right, #FCFDFF, #D3DEDC);
 
-    background-image: linear-gradient(to right, white, rgb(16 255 129));
+
+    /* background-image: linear-gradient(to right, white, rgb(16 255 129)); */
 
 }
 
 @media screen and (max-width: 760px) {
     .p-box {
-
         margin: 0 3rem;
     }
 

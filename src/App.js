@@ -10,12 +10,23 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
+import { useState,useEffect } from 'react';
 function App() {
-
+    const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
+  
+    const updateMedia = () => {
+      setDesktop(window.innerWidth > 768);
+    };
+  
+    useEffect(() => {
+      window.addEventListener("resize", updateMedia);
+      return () => window.removeEventListener("resize", updateMedia);
+    });
+  
   return (
     <div className="App">
-      <Router>
+      { isDesktop ?(
+        <Router>
         <Navbars />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,6 +35,15 @@ function App() {
 
         </Routes>
       </Router>
+      ):(
+        <>
+      {/* <Navbars/> */}
+      <Home/>
+      <Project/>
+      <Contact/>
+      </>
+      )
+    } 
 
     </div>
   );

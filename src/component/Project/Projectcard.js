@@ -14,7 +14,7 @@ function Projectcard(props) {
         <Card.Text className='cd-desc'>
           {description}
         </Card.Text>
-        <a href={gitLink} target="_blank" rel="noreferrer"><Button variant="primary">Code</Button></a>
+        <a href={gitLink} target="_blank" rel="noreferrer"><Button className="p-code-btn">Code</Button></a>
       </Card.Body>
     </Card>
   );
