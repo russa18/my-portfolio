@@ -3,6 +3,7 @@ import Home from './component/Home/Home';
 import Contact from './component/Contact/Contact';
 import Project from './component/Project/Project';
 import Navbars from './component/Navbar/Navbars';
+import About from "./component/About/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/About" element={<About />} />
 
         </Routes>
       </Router>
@@ -39,6 +41,7 @@ function App() {
         <>
       {/* <Navbars/> */}
       <Home/>
+      <About/>
       <Project/>
       <Contact/>
       </>
