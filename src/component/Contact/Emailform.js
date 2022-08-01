@@ -46,7 +46,6 @@ function Emailform(props) {
           Submit
         </Button>
       </Form.Group>
-      {/* {done && alert("email sent")} */}
       {done}
     </Form>
   );

@@ -24,11 +24,11 @@ export default function Contact(props) {
         </div>
 
         <div className="c-social-icons">
-          {/* <h2>Also Active on</h2> */}
           <a href="https://www.linkedin.com/in/rushikesh-sawant-91b6ba1a7/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin fa-3x"></i></a>
           <a href='https://www.instagram.com/russa_18/' target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram fa-3x"></i></a>
           <a href='https://github.com/russa18' target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-3x"></i></a>
           <p><i className="fa-solid fa-phone c-phone"> 7741083144 / 9284054179</i></p>
+          <i className="fa-solid fa-envelope" ></i><a href="mailto:rushikesh.sawant.1690@gmail.com" className='cont-email'> rushikesh.sawant.1690@gmail.com</a>
 
         </div>
       </div>

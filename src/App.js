@@ -5,48 +5,47 @@ import Project from './component/Project/Project';
 import Navbars from './component/Navbar/Navbars';
 import About from "./component/About/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
+
 function App() {
-    const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
-  
-    const updateMedia = () => {
-      setDesktop(window.innerWidth > 768);
-    };
-  
-    useEffect(() => {
-      window.addEventListener("resize", updateMedia);
-      return () => window.removeEventListener("resize", updateMedia);
-    });
-  
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 768);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
     <div className="App">
-      { isDesktop ?(
+      {isDesktop ? (
         <Router>
-        <Navbars />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Project" element={<Project />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/About" element={<About />} />
+          <Navbars />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Project" element={<Project />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/About" element={<About />} />
 
-        </Routes>
-      </Router>
-      ):(
+          </Routes>
+        </Router>
+      ) : (
         <>
-      {/* <Navbars/> */}
-      <Home/>
-      <About/>
-      <Project/>
-      <Contact/>
-      </>
+          <Home />
+          <About />
+          <Project />
+          <Contact />
+        </>
       )
-    } 
+      }
 
     </div>
   );

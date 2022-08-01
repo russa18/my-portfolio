@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="left">
-        
+
         <img className='profile-img-1' src="./DSC_7251.JPG" alt="" />
 
         <div className="h left-info">
@@ -16,20 +16,14 @@ export default function Home() {
           </p>
 
           <div className="left-icons">
-
             <a href="https://www.linkedin.com/in/rushikesh-sawant-91b6ba1a7/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin fa-3x"></i></a>
             <a href='https://www.instagram.com/russa_18/' target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram fa-3x " ></i></a>
             <a href='https://github.com/russa18' target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-3x"></i></a>
           </div>
         </div>
-
       </div>
       <div className="right">
-      
-        {/* <img className='profile-img' src="./DSC_7251.JPG" alt="" /> */}
-
       </div>
-
     </div>
   )
 }

@@ -1,5 +1,3 @@
-
-
 .navbar-dark .navbar-brand {
     position: absolute;
     margin-left: 5rem;
@@ -9,28 +7,19 @@
     font-size: 1.5rem !important;
     letter-spacing: 5px;
     font-family: 'Kanit', sans-serif;
-
 }
 
 .n-link {
     font-size: 1rem !important;
     margin: 0 10px;
     font-family: 'Nunito Sans', sans-serif;
-    /* color: white !important; */
-
 }
 
-/* .n-link:hover{
-    transform: scale(1.07);
-} */
 .active {
     font-weight: 80 !important;
-    /* background-color: #61fb69 !important; */
     text-decoration: underline 2px #007CC7 !important;
     color: white !important;
-
 }
-
 
 @media screen and (max-width: 990px) {
     .n-link {
