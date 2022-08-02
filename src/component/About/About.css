@@ -27,13 +27,15 @@
 .qual {
     margin: 1rem;
     font-size: 2rem !important;
-    font-family: 'monospace', sans-serif;
+    font-family: cursive, serif;
     text-decoration-line: underline;
 }
 
 .qual {
     text-align: center !important;
     text-decoration: none;
+    font-family: cursive, serif;
+
 }
 
 .edu-list {
@@ -95,7 +97,7 @@
     opacity: .9;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .about {
         flex-direction: column !important;
         height: fit-content;
@@ -110,6 +112,7 @@
         text-align: center;
         font-size: 1.5rem !important;
         font-family: 'Montserrat', sans-serif;
+
     }
 
     .ab-left-content {

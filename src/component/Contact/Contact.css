@@ -47,7 +47,7 @@
     height: 4rem;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .contact {
         display: flex;
         flex-direction: column-reverse;
