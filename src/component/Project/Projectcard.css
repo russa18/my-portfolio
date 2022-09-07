@@ -4,21 +4,28 @@
     padding: 1rem !important;
 }
 
-.p-code-btn {
-    background-color: #1A374D !important;
+.p-code-btn ,.p-demo-btn{
+    background-color: #004377 !important;
     border: none !important;
     color: white !important;
     cursor: pointer;
 }
+.p-demo-btn{
+    background-color: #2d4af5 !important;
+float: right;
+}
 
-.p-code-btn:hover {
+.p-code-btn:hover , .p-demo-btn:hover{
     background-color: #6998AB !important;
     border: none !important;
     color: white !important;
     cursor: pointer;
     transform: scale(1.07);
 }
-
+.p-demo-btn:hover{
+    background-color: #456ff5 !important;
+  
+}
 .cd-img {
     height: 8rem;
     margin: auto;

@@ -14,7 +14,7 @@ export default function Project() {
           {
             articles.map((data, key) => {
               return <div className="p-cards " key={key}>
-                <Projectcard key={key} title={data.title} description={data.description} gitLink={data.gitLink} imgLink={data.imgLink} className="col-md-3" />
+                <Projectcard key={key} title={data.title} description={data.description} gitLink={data.gitLink} imgLink={data.imgLink} demoLink={data.demoLink} className="col-md-3" />
               </div>
             })
           }
