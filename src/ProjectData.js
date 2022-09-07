@@ -23,7 +23,7 @@ const articles = [
         "title": "Text Analyzer",
         "description": "An online text analyzer that can manipulate text, count words, characters, and read time",
         "gitLink": "https://github.com/russa18/text-analyzer",
-        "demoLink":""
+        "demoLink":"https://rushikesh-text-analyser.netlify.app/"
 
     },
     {
@@ -53,6 +53,15 @@ const articles = [
         "description": "Clone of youTube - video streaming platform",
         "gitLink": "https://github.com/russa18/youtube-clone.git",
         "demoLink":"https://rushikesh-youtube-clone.netlify.app/"
+
+    },
+    {
+        "id": 7,
+        "imgLink": "",
+        "title": "Shopping app",
+        "description": "basic shopping app",
+        "gitLink": "https://github.com/russa18/my-shopping.git",
+        "demoLink":"https://rushikesh-shopping.netlify.app/"
 
     }
 
