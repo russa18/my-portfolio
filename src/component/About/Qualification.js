@@ -4,7 +4,7 @@ const qual=[
         "title": "Masters",
         "description": "MASTER OF COMPUTER APPLICATIONS",
         "address": "Goa University , Goa",
-        "marks":"",
+        "marks":"5.6 CPI",
         "year":"2019 - 2022"
     },
     {

@@ -9,12 +9,12 @@ export default function AboutList(props) {
         <div className="content_img">
             <p className='cert-img'>{title}</p>
             <ListGroup.Item as="li" className="abt-list-details d-flex justify-content-between align-items-start">
-                <div className="ms-2 me-auto">
-                    <div className="fw-bold">{desc}</div>
-                    <div>{address}</div>
-                    <div>{marks}</div>
-                    <div>{year}</div>
-                </div>
+                <ul className="ms-2 me-auto">
+                    <li className="fw-bold">{desc}</li>
+                    <li>{address}</li>
+                    <li>{marks}</li>
+                    <li>{year}</li>
+                </ul>
             </ListGroup.Item>
         </div>)
 }
