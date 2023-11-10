@@ -70,7 +70,7 @@ const articles = [
         "title": "Weather app",
         "description": "weather app to demonstrate my working with react js, react-router-dom,redux-toolkit,api ,hooks",
         "gitLink": "https://github.com/russa18/weather.git",
-        "demoLink":"https://rushikesh-shopping.netlify.app/"
+        "demoLink":"https://rushi-weather.netlify.app/"
 
     }
 
